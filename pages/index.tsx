@@ -1,11 +1,10 @@
-import styles from "../styles/Home.module.css";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>NextJs Starter</title>
         <meta
@@ -14,9 +13,11 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <main className={styles.main}>
+      <main className="flex flex-col items-center justify-center text-center min-h-screen">
         <Link href="https://github.com/benbarber/nextjs-starter">
-          <h1 className={styles.title}>NextJs Starter</h1>
+          <h1 className="text-3xl text-black font-bold leading-relaxed">
+            NextJs Starter
+          </h1>
         </Link>
 
         <p>
