@@ -4,10 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    reviewers:
-      - "benbarber"
-    assignees:
-      - "benbarber"
     commit-message:
       prefix: fix
       prefix-development: chore
